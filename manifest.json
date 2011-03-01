@@ -1,0 +1,13 @@
+{
+  "name": "Eduarddit",
+  "version": "0.1",
+  "description": "help Ed remember which link on reddit got him here",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://www.reddit.com/api/",
+    "tabs"
+  ]
+}
