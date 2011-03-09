@@ -25,7 +25,10 @@
       var a = document.createElement('a');
       a.href = 'http://www.reddit.com' + link.data.permalink;
       a.textContent = link.data.title;
-      a.onclick = function () { callback(a.href); };
+      a.onclick = function () {
+        callback(a.href);
+        return false;
+      };
       var li = document.createElement('li');
       li.appendChild(a);
       ul.appendChild(li);
