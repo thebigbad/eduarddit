@@ -1,5 +1,22 @@
+<html>
+  <style>
+    body {
+      width: 500px;
+      font-size: 16px;
+    }
+    ul {
+      margin: 20px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+<body>
 ...
 <script>
+  document.body.style = 'width: 84em';
+
   var getPageUrl = function (callback) {
     chrome.tabs.getSelected(null, function (tab) { callback(tab.url); });
   };
@@ -42,3 +59,5 @@
     });
   });
 </script>
+</body>
+</html>
