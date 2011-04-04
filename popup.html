@@ -15,8 +15,6 @@
 <body>
 ...
 <script>
-  document.body.style = 'width: 84em';
-
   var getPageUrl = function (callback) {
     chrome.tabs.getSelected(null, function (tab) { callback(tab.url); });
   };
