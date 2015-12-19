@@ -1,6 +1,6 @@
 {
   "name": "Eduarddit",
-  "version": "1",
+  "version": "2",
   "description": "help Ed remember which link on reddit got him here",
   "browser_action": {
     "default_icon": "eduarddit_19.png",
